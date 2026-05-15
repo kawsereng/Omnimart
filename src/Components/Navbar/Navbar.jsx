@@ -6,7 +6,7 @@ import { IoIosArrowDown } from "react-icons/io";
 export const Navbar = () => {
   return (
    <>
-   <div className='border-t border-solid border-[#F0F0F0]'>
+   <div className='border-y border-solid border-[#e7e7e7]'>
    <Container>
         <div className='flex items-center'>
             <div className='flex items-center py-4 pl-3 pr-[163px] gap-2  bg-[#FF6A00] text-white font-san text-[18px] font-medium '><FiMenu className=''/>Categories</div>
