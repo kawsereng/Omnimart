@@ -1,9 +1,9 @@
 // import ReactDOM from "react-dom/client";
 import { Routes, Route } from "react-router";
-import { Home } from "./Pages/Home";
-import { MainLayout } from "./Layout/MainLayout";
-import { Login } from "./Pages/Login";
-import {Registration} from "./Pages/Registration"
+import { Home } from "./Components/Pages/Home";
+import { MainLayout } from "./Components/Layout/MainLayout"
+import { Login } from "./Components/Pages/Login";
+import {Registration} from "./Components/Pages/Registration"
 function App() {
  
 

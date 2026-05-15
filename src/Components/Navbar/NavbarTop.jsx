@@ -1,9 +1,9 @@
 import { useState ,useRef} from 'react'
-import { Container } from '../../Layout/Container'
+import { Container } from '../../Components/Layout/Container'
 import { IoLocationOutline } from "react-icons/io5";
 import { GrFormDown } from "react-icons/gr";
 import { Link } from 'react-router';
-import {useOutside} from '../../Hooks/OutSide'
+import {useOutside} from '../Hooks/OutSide'
 
 export const NavbarTop = () => {
   let [taka,setTaka]=useState(false)
