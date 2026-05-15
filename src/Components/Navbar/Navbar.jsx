@@ -16,7 +16,7 @@ export const Navbar = () => {
                     <li className='hover:text-[#FF6A00] cursor-pointer'>Shop</li>
                     <li className='hover:text-[#FF6A00] cursor-pointer'>Campaign</li>
                     <li className='hover:text-[#FF6A00] cursor-pointer'>Blog</li>
-                    <li className='hover:text-[#FF6A00] cursor-pointer'>Pages <IoIosArrowDown/> </li>
+                    <li className='flex items-center hover:text-[#FF6A00] cursor-pointer'>Pages <IoIosArrowDown/> </li>
                     <li className='hover:text-[#FF6A00] cursor-pointer'>Contact</li>
                 </ul>
             </div>
